@@ -27,6 +27,7 @@ We can configure its contents from the parameters
 <p align="center"><img src="help\background_selector_scr002.png" /></p>
 
 <p align="center"><img src="help\background_selector_scr007.png" /></p>
+
 ***
 
 <br>
