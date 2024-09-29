@@ -1,0 +1,111 @@
+{
+	"attrs": {
+		"type": "parameters",
+		"client": "block",
+		"version": "1.0.0",
+		"name": "background_selector"
+	},
+	"header": {
+		"version": "1.0.0",
+		"license": "APL_license",
+		"author": "APL_author",
+		"creation": "APL_creation",
+		"copyright": "APL_copyright",
+		"email": "webmaster@alexsoft.gr",
+		"url": "www.alexsoft.gr",
+		"translator": "APL_translator",
+		"translatorEmail": "APL_translatorEmail",
+		"translatorUrl": "APL_translatorUrl",
+		"description": "APL_desc"
+	},
+	"params": {
+		"0": {
+			"paramgroup": "APL_paramgroup_dates_label",
+			"0": {
+				"name": "sdate",
+				"type": "date",
+				"assigned":"edate",
+				"maxdate":0,
+				"default": "",
+				"label": "APL_sdate_label",
+				"description": "APL_sdate_desc"
+			}, 
+			"1": {
+				"name": "edate",
+				"type": "date",
+				"assigned":"sdate",
+				"maxdate":1,
+				"default": "",
+				"label": "APL_edate_label",
+				"description": "APL_edate_desc"
+			}
+		},
+		"1": {
+			"paramgroup": "APL_paramgroup_bg_label",
+			"0": {
+				"name": "id",
+				"type": "text",
+				"default": "",
+				"label": "APL_id_label",
+				"description": "APL_id_desc"
+			},
+			"1": {
+				"name": "image",
+				"normalize":"extrafield",
+				"type": "select",
+				"list":"WallpaperArrays",
+				"placeholder":"APL_image_placeholder",
+				"placeholderVal":"",
+				"default": "",
+				"label": "APL_image_label",
+				"description": "APL_image_desc"
+			},
+			"2": {
+				"type": "separate"
+			},
+			"3": {
+				"name": "position",
+				"type": "list",
+				"optval":"left top,left center,left bottom,right top,right center,right bottom,center top,center center,center bottom",
+				"opttext":"APL_opt_LeftTop,APL_opt_LeftCenter,APL_opt_LeftBottom,APL_opt_RightTop,APL_opt_RightCenter,APL_opt_RightBottom,APL_opt_CenterTop,APL_opt_CenterCenter,APL_opt_CenterBottom",
+				"placeholder":"APL_position_placeholder",
+				"placeholderVal":"",
+				"default": "",
+				"label": "APL_position_label",
+				"description": "APL_position_desc"
+			},
+			"4": {
+				"name": "attachment",
+				"type": "list",
+				"optval":"fixed,scroll",
+				"opttext":"APL_opt_Fixed,APL_opt_Scroll",
+				"placeholder":"APL_attachment_placeholder",
+				"placeholderVal":"",
+				"default": "",
+				"label": "APL_attachment_label",
+				"description": "APL_attachment_desc"
+			},
+			"5": {
+				"name": "repeat",
+				"type": "list",
+				"optval":"no-repeat,repeat,repeat-x,repeat-y",
+				"opttext":"APL_opt_NoRepeat,APL_opt_Repeat,APL_opt_RepeatX,APL_opt_RepeatY",
+				"placeholder":"APL_repeat_placeholder",
+				"placeholderVal":"",
+				"default": "",
+				"label": "APL_repeat_label",
+				"description": "APL_repeat_desc"
+			},
+			"6": {
+				"type": "separate"
+			},
+			"7": {
+				"name": "bgcolor",
+				"type": "color",
+				"default": "",
+				"label": "APL_bgcolor_label",
+				"description": "APL_bgcolor_desc"
+			}
+		}
+	}
+}
