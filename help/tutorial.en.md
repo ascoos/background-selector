@@ -4,11 +4,12 @@
 
 # How to use Block `background_selector` of Ascoos Cms.
 
-This tutorial is divided into four steps.
+This tutorial is divided into three steps.
 1) Installing the `background_selector` Block
 2) Editing and configuration of its parameters.
 3) The result we have.
 
+***
 
 # Installation
 
@@ -69,7 +70,7 @@ In the program that will open (see image below) we choose:
 
 <p align="center"><img src="background_selector_scr001.png" /></p>
 
-
+***
 
 ## 1. Edit the basic properties of the Block.
 
@@ -85,11 +86,11 @@ From the editing page of the basic settings, we can adjust to the specific needs
      - `Block Name` : it is essentially the name of the copy of the physical block.
      - `Natural Block Name` : It is the natural name of the block as it is on the server disk. We can create as many copies of the block as we want. Of course, each one will have a different name.
 
-<p align="center"><img src="scr-block-comfor_latest-admin-0004-basic-settings-block-name.png" /></p>
+<p align="center"><img src="background_selector_scr013.png" /></p>
 
 2. `BLOCK TITLE` : Here we can give multilingual titles to our block. Of course we can only in the languages supported by our website. We can add, remove and sort the titles as we wish.
 
-<p align="center"><img src="scr-block-comfor_latest-admin-0005-basic-settings-block-title.png" /></p>
+<p align="center"><img src="background_selector_scr014.png" /></p>
 
 
 3. `VIEW OPTIONS` : Here we define the display parameters of the block.
@@ -133,12 +134,14 @@ From the editing page of the basic settings, we can adjust to the specific needs
 
 <p align="center"><img src="background_selector_scr012.png" /></p>
 
+***
 
 ## 2. Permissions
 
 How access rights work, not only for blocks but also for all components of **Ascoos Cms** is described in the video
 [Ascoos Cms Blocks - Edit Permissions](https://www.youtube.com/watch?v=nqgJp10iquw) which is on youtube.
 
+***
 
 ## 3. Edit Block's special parameters.
 Each component of **Ascoos Cms** also has its own operating parameters. For the specific block are those shown in the following image.
@@ -170,7 +173,9 @@ Each component of **Ascoos Cms** also has its own operating parameters. For the 
 
 <p align="center"><img src="background_selector_scr009.png" /></p>
 
-## The result
+***
+
+# The result
 At the end we select the `Save` button from the ribbon menu and go to the frontend of our page to see the results.
 
 As an Administrator we have the ability to see our website fully functional, even if its elements are reserved for publication at a later time.
