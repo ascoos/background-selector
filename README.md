@@ -5,8 +5,8 @@
 # Ascoos Cms Block | `background_selector`
 
 ![GitHub Release](https://img.shields.io/github/v/release/ascoos/background-selector) 
-![GitHub Release Date](https://img.shields.io/github/release-date/ascoos/background-selector) 
-![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/ascoos/background-selector/total) 
+![GitHub Release Date](https://img.shields.io/github/release-date/ascoos/background-selector?color=%230E80C0)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/ascoos/background-selector/total?color=%230E80C0) 
 ![GitHub repo size](https://img.shields.io/github/repo-size/ascoos/background-selector)
 [![PHP Classes](https://img.shields.io/badge/php-classes-blue.svg)](https://www.phpclasses.org/package/13356.html) 
 
